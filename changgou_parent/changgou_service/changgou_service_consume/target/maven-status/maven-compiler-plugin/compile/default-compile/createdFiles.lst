@@ -1,0 +1,4 @@
+com\changgou\consume\SeckillConsumeApplication.class
+com\changgou\consume\dao\SeckillGoodsMapper.class
+com\changgou\consume\dao\SeckillOrderMapper.class
+com\changgou\consume\config\RabbitMQConfig.class

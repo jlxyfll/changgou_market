@@ -1,0 +1,7 @@
+com\changgou\seckill\config\CustomMessageSender.class
+com\changgou\seckill\config\RabbitMQConfig.class
+com\changgou\seckill\dao\SeckillGoodsMapper.class
+com\changgou\seckill\config\TokenDecode.class
+com\changgou\seckill\SeckillApplication.class
+com\changgou\seckill\dao\SeckillOrderMapper.class
+com\changgou\seckill\config\ResourceServerConfig.class

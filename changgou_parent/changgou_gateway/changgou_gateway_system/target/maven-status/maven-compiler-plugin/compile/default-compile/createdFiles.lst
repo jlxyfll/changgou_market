@@ -1,0 +1,6 @@
+com\changgou\util\JwtUtil.class
+com\changgou\GatewayApplication$1.class
+com\changgou\filter\IPFilter.class
+com\changgou\filter\AuthFilter.class
+com\changgou\GatewayApplication.class
+com\changgou\filter\UrlFilter.class

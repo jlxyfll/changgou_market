@@ -1,0 +1,7 @@
+com\changgou\controller\PageDetailController.class
+com\changgou\service\PageServiceImpl.class
+com\changgou\PageApplication.class
+com\changgou\service\PageService.class
+com\changgou\listener\PageCreateListener.class
+com\changgou\controller\PageController.class
+com\changgou\config\EnableMvcConfig.class
