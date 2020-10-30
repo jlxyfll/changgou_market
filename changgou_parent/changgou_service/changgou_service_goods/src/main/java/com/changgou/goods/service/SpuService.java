@@ -17,6 +17,7 @@ public interface SpuService {
 
     /**
      * 根据ID查询
+     *
      * @param id
      * @return
      */
@@ -64,34 +65,33 @@ public interface SpuService {
      */
     Page<Spu> findPage(Map<String, Object> searchMap, int page, int size);
 
-
     /**
-     * 添加商品（spu和sku）
+     * 新增商品
+     *
      * @param goods
      */
     void addGoods(Goods goods);
 
-
     /**
-     * 根据spuId查询商品（spu和sku）
+     * 根据spuId查询商品
+     *
      * @param spuId
-     * @return
      */
     Goods findBySpuId(String spuId);
 
-
     /**
      * 更新商品
+     *
      * @param goods
+     * @return
      */
     void updateGoods(Goods goods);
 
-
     /**
      * 审核商品
+     * @param spuId
      */
     void auditGoods(String spuId);
-
 
     /**
      * 上架商品
@@ -99,13 +99,11 @@ public interface SpuService {
      */
     void upGoods(String spuId);
 
-
     /**
      * 下架商品
      * @param spuId
      */
     void downGoods(String spuId);
-
 
     /**
      * 逻辑删除商品
@@ -113,16 +111,15 @@ public interface SpuService {
      */
     void deleteLogic(String spuId);
 
-
     /**
-     * 恢复逻辑删除的商品
+     * 恢复商品
      * @param spuId
      */
-    void restore(String spuId);
+    void restoreGoods(String spuId);
 
     /**
      * 物理删除商品
      * @param spuId
      */
-    void deleteReal(String spuId);
+    void deleteGoods(String spuId);
 }
